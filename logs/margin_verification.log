@@ -1,0 +1,11 @@
+--- suite: strictly positive tolerances ---
+V1 band characterisation vs corner enumeration: 36000 checks, mismatches 0 (in Z 8768, in P 24444, outside P 11556)
+V2 rho/phi vs bisection on corner oracle: 1500 instances, max rel. diff rho 5.06e-15, phi 4.44e-15
+V3 R vs LP: 3000 instances (2469 with an inversion, 0 with R=inf skipped), max |R-LP| 1.73e-14; rho(c*)=R violations 0; rho>R violations 0
+V4 structure: 36000 cutoff checks; Z<=P violations 0; nesting 0; gamma=0 vs Theorem 1 0; Z empty iff gamma>=R violations 0
+V5 maximum-margin cutoff: 400 windows, exact < grid violations 0, max (exact - grid) 9.33e-04
+--- suite: with one-sided zero tolerances ---
+V1 band characterisation vs corner enumeration: 36000 checks, mismatches 0 (in Z 10554, in P 23331, outside P 12669)
+V2 rho/phi vs bisection on corner oracle: 1500 instances, max rel. diff rho 5.77e-15, phi 4.55e-15
+V3 R vs LP: 2175 instances (1658 with an inversion, 825 with R=inf skipped), max |R-LP| 1.78e-14; rho(c*)=R violations 0; rho>R violations 0
+V4 structure: 36000 cutoff checks; Z<=P violations 0; nesting 0; gamma=0 vs Theorem 1 0; Z empty iff gamma>=R violations 0

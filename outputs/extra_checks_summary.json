@@ -1,0 +1,20 @@
+{
+  "propositions_2_3_vs_LP": {
+    "instances": 3000,
+    "instances_with_inversion": 2594,
+    "max_abs_error_weighted_closed_form_vs_LP": 2.0872192862952943e-14,
+    "max_abs_error_uniform_closed_form_vs_LP": 1.1102230246251565e-16
+  },
+  "theorem_1_grid": {
+    "sequences": 4000,
+    "cutoff_cells_checked": 84000,
+    "mismatches": 0
+  },
+  "theorems_2_3_random": {
+    "ratio_equiv_mismatch": 0,
+    "matrix_cert_violation": 0,
+    "stability_radius_violation": 0,
+    "random_instances": 1500
+  },
+  "baseline_comparison_rows": 4
+}

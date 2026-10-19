@@ -1,0 +1,50 @@
+{
+  "seed": 20261021,
+  "reps_per_cell": 1000,
+  "cells": 128,
+  "problems": 128000,
+  "grid": {
+    "n_alternatives": [
+      12,
+      24
+    ],
+    "m_criteria": [
+      3,
+      6
+    ],
+    "delta": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "pi_conflict": [
+      0.0,
+      0.3
+    ],
+    "ar_phi": [
+      0.0,
+      0.8
+    ],
+    "weights": [
+      "equal",
+      "dirichlet"
+    ],
+    "rescue_windows": [
+      0.05,
+      0.1
+    ]
+  },
+  "consistency_checks": {
+    "instances": 128000,
+    "rho_gt1_not_in_Z1": 0,
+    "in_Z1_rho_lt1": 0,
+    "phi_lt1_not_in_P1": 0,
+    "in_P1_phi_gt1": 0,
+    "valid_but_in_Z1": 0,
+    "rho_cmed_gt_R": 0,
+    "Z_not_subset_P_length": 0,
+    "spectrum_vs_direct_mismatch": 0
+  },
+  "seconds": 25.1
+}

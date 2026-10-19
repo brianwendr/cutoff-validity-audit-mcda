@@ -1,0 +1,1 @@
+{"seed": 20261019, "reps_per_cell": 2000, "cells": 72, "grid": {"n_alternatives": [6, 12, 24], "m_criteria": [3, 6], "delta": [0.0, 0.1, 0.25, 0.5, 1.0, 2.0], "pi_conflict": [0.0, 0.3]}, "matrix_cert_violations": 0, "spectrum_vs_direct_mismatches": 0, "instances": 144000, "matrix_cert_true": 1079, "matrix_cert_true_and_p2_valid": 1079, "p2_valid": 14514, "seconds": 71.3}

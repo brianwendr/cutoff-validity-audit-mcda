@@ -1,0 +1,71 @@
+{
+  "ar_phi": {
+    "0.0": {
+      "P_all_cutoffs_valid": 0.0078,
+      "P_R_sym_le_1_given_invalid": 0.1816,
+      "P_median_invalid_nominal": 0.718,
+      "P_median_certainly_invalid": 0.3821,
+      "P_median_ambiguous": 0.6098,
+      "P_median_robustly_valid": 0.0082,
+      "P_rescue_window_5pct": 0.188,
+      "P_rescue_window_10pct": 0.3469,
+      "mean_Z1_share": 0.4121,
+      "mean_ambiguous_share": 0.3343,
+      "mean_robustly_valid_share": 0.2536
+    },
+    "0.8": {
+      "P_all_cutoffs_valid": 0.1161,
+      "P_R_sym_le_1_given_invalid": 0.3421,
+      "P_median_invalid_nominal": 0.5652,
+      "P_median_certainly_invalid": 0.2893,
+      "P_median_ambiguous": 0.6722,
+      "P_median_robustly_valid": 0.0384,
+      "P_rescue_window_5pct": 0.3084,
+      "P_rescue_window_10pct": 0.5251,
+      "mean_Z1_share": 0.2703,
+      "mean_ambiguous_share": 0.3259,
+      "mean_robustly_valid_share": 0.4038
+    }
+  },
+  "weights": {
+    "dirichlet": {
+      "P_all_cutoffs_valid": 0.0538,
+      "P_R_sym_le_1_given_invalid": 0.1978,
+      "P_median_invalid_nominal": 0.6506,
+      "P_median_certainly_invalid": 0.3645,
+      "P_median_ambiguous": 0.6106,
+      "P_median_robustly_valid": 0.0249,
+      "P_rescue_window_5pct": 0.3119,
+      "P_rescue_window_10pct": 0.4975,
+      "mean_Z1_share": 0.4196,
+      "mean_ambiguous_share": 0.2217,
+      "mean_robustly_valid_share": 0.3587
+    },
+    "equal": {
+      "P_all_cutoffs_valid": 0.07,
+      "P_R_sym_le_1_given_invalid": 0.3258,
+      "P_median_invalid_nominal": 0.6327,
+      "P_median_certainly_invalid": 0.3069,
+      "P_median_ambiguous": 0.6714,
+      "P_median_robustly_valid": 0.0217,
+      "P_rescue_window_5pct": 0.1846,
+      "P_rescue_window_10pct": 0.3745,
+      "mean_Z1_share": 0.2628,
+      "mean_ambiguous_share": 0.4385,
+      "mean_robustly_valid_share": 0.2987
+    }
+  },
+  "overall": {
+    "P_all_cutoffs_valid": 0.0619,
+    "P_R_sym_le_1_given_invalid": 0.2292,
+    "P_R_asym_le_1_given_invalid": 0.2278,
+    "P_median_invalid_nominal": 0.6416,
+    "P_median_certainly_invalid": 0.3357,
+    "P_median_ambiguous": 0.641,
+    "P_median_robustly_valid": 0.0233,
+    "P_rescue_window_5pct": 0.2482,
+    "P_rescue_window_10pct": 0.436,
+    "P_global_fail": 0.7231,
+    "P_median_rho_le_1_given_global_fail": 0.5357
+  }
+}

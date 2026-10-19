@@ -1,0 +1,375 @@
+{
+  "c0": 0.55,
+  "window": [
+    0.5,
+    0.6
+  ],
+  "tau_symmetric": [
+    0.1086772258,
+    0.0827915535,
+    0.0569058811,
+    0.0285940197,
+    0.0038663259,
+    0.0256035139,
+    0.0545333441,
+    0.0151039206,
+    0.040536209,
+    0.0712742594,
+    0.0635664793,
+    0.1086772259
+  ],
+  "p1": {
+    "symmetric": {
+      "norm": "p1",
+      "tolerance": "symmetric",
+      "R": 4.8477714878401805,
+      "worst_pair": [
+        4,
+        7
+      ],
+      "critical_cutoff": 0.48700168768167046,
+      "gamma_0.5": {
+        "Z": "(0.3777,0.5496]",
+        "P": "(0.3042,0.5752]",
+        "Z_share_of_range": 0.4168103032277937,
+        "P_minus_Z_share": 0.24031108802648257,
+        "robustly_valid_share": 0.34287860874572373,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4049,0.5368]",
+        "P": "(0.2628,0.6502]",
+        "Z_share_of_range": 0.3196478679041513,
+        "P_minus_Z_share": 0.5445241214657113,
+        "robustly_valid_share": 0.13582801063013739,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "gamma_2.0": {
+        "Z": "(0.4440,0.5112]",
+        "P": "(0.1800,0.7137]",
+        "Z_share_of_range": 0.1628868874577001,
+        "P_minus_Z_share": 0.8371131125422999,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.4830772301080925,
+      "c0_phi": 0.0,
+      "c0_margin": -0.4830772301080925,
+      "window_best_cutoff": 0.6,
+      "window_best_margin": 0.9557285536352608,
+      "range_best_cutoff": 0.706193005,
+      "range_best_margin": 1.881180962212878
+    },
+    "asymmetric": {
+      "norm": "p1",
+      "tolerance": "asymmetric",
+      "R": Infinity,
+      "worst_pair": [
+        4,
+        8
+      ],
+      "gamma_0.5": {
+        "Z": "(0.4049,0.5368]",
+        "P": "(0.3456,0.5624]",
+        "Z_share_of_range": 0.3196478679041513,
+        "P_minus_Z_share": 0.20604924509926978,
+        "robustly_valid_share": 0.47430288699657897,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4195,0.5112]",
+        "P": "(0.3456,0.5866]",
+        "Z_share_of_range": 0.22217283486411185,
+        "P_minus_Z_share": 0.3623150208223602,
+        "robustly_valid_share": 0.4155121443135279,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_2.0": {
+        "Z": "(0.4253,0.5057]",
+        "P": "(0.2468,0.7285]",
+        "Z_share_of_range": 0.19507239855202663,
+        "P_minus_Z_share": 0.8049276014479734,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.24153861505404625,
+      "c0_phi": 0.0,
+      "c0_margin": -0.24153861505404625
+    }
+  },
+  "p2": {
+    "symmetric": {
+      "norm": "p2",
+      "tolerance": "symmetric",
+      "R": 4.951803119690617,
+      "worst_pair": [
+        4,
+        7
+      ],
+      "critical_cutoff": 0.4943321191942295,
+      "gamma_0.5": {
+        "Z": "(0.4271,0.5299]",
+        "P": "(0.3746,0.5704]",
+        "Z_share_of_range": 0.5307582014181886,
+        "P_minus_Z_share": 0.33989816380631227,
+        "robustly_valid_share": 0.12934363477549904,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4346,0.5170]",
+        "P": "(0.3452,0.6022]",
+        "Z_share_of_range": 0.42562846702673834,
+        "P_minus_Z_share": 0.5743715329732617,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "gamma_2.0": {
+        "Z": "(0.4497,0.5057]",
+        "P": "(0.2624,0.6658]",
+        "Z_share_of_range": 0.28922923613234436,
+        "P_minus_Z_share": 0.7107707638676556,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.0,
+      "c0_phi": 0.2869912432469082,
+      "c0_margin": 0.2869912432469082,
+      "window_best_cutoff": 0.6,
+      "window_best_margin": 0.9650417991334639,
+      "range_best_cutoff": 0.5954805969,
+      "range_best_margin": 0.8939445297341997
+    },
+    "asymmetric": {
+      "norm": "p2",
+      "tolerance": "asymmetric",
+      "R": 12.148087026860349,
+      "worst_pair": [
+        4,
+        7
+      ],
+      "critical_cutoff": 0.4195404778,
+      "gamma_0.5": {
+        "Z": "(0.4195,0.5269]",
+        "P": "(0.3761,0.5626]",
+        "Z_share_of_range": 0.5545613872974011,
+        "P_minus_Z_share": 0.2757831115584827,
+        "robustly_valid_share": 0.1696555011441162,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4195,0.5112]",
+        "P": "(0.3456,0.5866]",
+        "Z_share_of_range": 0.4732348387851637,
+        "P_minus_Z_share": 0.480962574544178,
+        "robustly_valid_share": 0.045802586670658285,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_2.0": {
+        "Z": "(0.4195,0.4980]",
+        "P": "(0.2631,0.6346]",
+        "Z_share_of_range": 0.4053166651861749,
+        "P_minus_Z_share": 0.5946833348138251,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.0,
+      "c0_phi": 0.37268275897149417,
+      "c0_margin": 0.37268275897149417
+    }
+  },
+  "pinf": {
+    "symmetric": {
+      "norm": "pinf",
+      "tolerance": "symmetric",
+      "R": 6.422099480889714,
+      "worst_pair": [
+        4,
+        7
+      ],
+      "critical_cutoff": 0.48633151746576436,
+      "gamma_0.5": {
+        "Z": "(0.3969,0.5092]",
+        "P": "(0.3537,0.5655]",
+        "Z_share_of_range": 0.9221438407349725,
+        "P_minus_Z_share": 0.07785615926502751,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4044,0.5073]",
+        "P": "(0.3181,0.6198]",
+        "Z_share_of_range": 0.844287681469945,
+        "P_minus_Z_share": 0.15571231853005502,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "gamma_2.0": {
+        "Z": "(0.4195,0.5034]",
+        "P": "(0.2468,0.7285]",
+        "Z_share_of_range": 0.68857536293989,
+        "P_minus_Z_share": 0.31142463706011003,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.0,
+      "c0_phi": 0.3573752733954249,
+      "c0_margin": 0.3573752733954249,
+      "window_best_cutoff": 0.6,
+      "window_best_margin": 0.8174532668198398,
+      "range_best_cutoff": 0.3893326365,
+      "range_best_margin": 0.0
+    },
+    "asymmetric": {
+      "norm": "pinf",
+      "tolerance": "asymmetric",
+      "R": Infinity,
+      "worst_pair": [
+        5,
+        6
+      ],
+      "gamma_0.5": {
+        "Z": "(0.4044,0.5112]",
+        "P": "(0.3893,0.5368]",
+        "Z_share_of_range": 0.876023408377668,
+        "P_minus_Z_share": 0.123976591622332,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": false,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_1.0": {
+        "Z": "(0.4195,0.5112]",
+        "P": "(0.3456,0.5866]",
+        "Z_share_of_range": 0.752046816755336,
+        "P_minus_Z_share": 0.247953183244664,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": true
+      },
+      "gamma_2.0": {
+        "Z": "(0.4497,0.5112]",
+        "P": "(0.1800,0.7137]",
+        "Z_share_of_range": 0.504093633510672,
+        "P_minus_Z_share": 0.495906366489328,
+        "robustly_valid_share": 0.0,
+        "c0_in_Z": false,
+        "c0_in_P": true,
+        "window_has_robustly_valid_cutoff": false
+      },
+      "c0_rho": 0.0,
+      "c0_phi": 0.7120105216461238,
+      "c0_margin": 0.7120105216461238
+    }
+  },
+  "quota": [
+    {
+      "norm": "p1",
+      "kmin": 1,
+      "kmax": 3,
+      "window_lo": 0.562368,
+      "window_hi": 0.706193,
+      "best_cutoff": 0.706193,
+      "margin": 1.881181,
+      "accepted": "11",
+      "nominally_valid": true,
+      "rho": 0.0,
+      "phi": 1.881181
+    },
+    {
+      "norm": "p1",
+      "kmin": 2,
+      "kmax": 4,
+      "window_lo": 0.531881,
+      "window_hi": 0.586613,
+      "best_cutoff": 0.586613,
+      "margin": 0.767904,
+      "accepted": "10 11",
+      "nominally_valid": true,
+      "rho": 0.0,
+      "phi": 0.767904
+    },
+    {
+      "norm": "p1",
+      "kmin": 3,
+      "kmax": 5,
+      "window_lo": 0.505745,
+      "window_hi": 0.562368,
+      "best_cutoff": 0.562368,
+      "margin": 0.0,
+      "accepted": "5 10 11",
+      "nominally_valid": false,
+      "rho": 0.0,
+      "phi": 0.0
+    },
+    {
+      "norm": "p2",
+      "kmin": 1,
+      "kmax": 3,
+      "window_lo": 0.538656,
+      "window_hi": 0.595481,
+      "best_cutoff": 0.595481,
+      "margin": 0.893945,
+      "accepted": "11",
+      "nominally_valid": true,
+      "rho": 0.0,
+      "phi": 0.893945
+    },
+    {
+      "norm": "p2",
+      "kmin": 2,
+      "kmax": 4,
+      "window_lo": 0.513477,
+      "window_hi": 0.542652,
+      "best_cutoff": 0.542652,
+      "margin": 0.0,
+      "accepted": "5 11",
+      "nominally_valid": false,
+      "rho": 0.0,
+      "phi": 0.0
+    },
+    {
+      "norm": "p2",
+      "kmin": 3,
+      "kmax": 5,
+      "window_lo": 0.502642,
+      "window_hi": 0.538656,
+      "best_cutoff": 0.538656,
+      "margin": -0.156085,
+      "accepted": "5 10 11",
+      "nominally_valid": false,
+      "rho": 0.156085,
+      "phi": 0.0
+    }
+  ]
+}
